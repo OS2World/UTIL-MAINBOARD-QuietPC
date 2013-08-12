@@ -1,0 +1,93 @@
+2007-04-19  Andrew Belov <andrew_belov@newmail.ru>
+
+	* quietpcp.h: YATF
+
+2007-04-06  Andrew Belov <andrew_belov@newmail.ru>
+
+	* doc/readme.txt: YATF
+
+2007-01-30  Andrew Belov <andrew_belov@newmail.ru>
+
+	* userland.c: Report the cause of failure when open() fails
+
+2007-01-30  Andrew Belov <andrew_belov@newmail.ru>
+
+	* quietpc.h, userland.c, doc/readme.txt, linux/Makefile,
+	  linux/linuxdd.c: Implemented udev support for character device
+	  autocreation
+
+2007-01-26  Andrew Belov <andrew_belov@newmail.ru>
+
+	* quietpc.h, linux/Makefile, linux/linuxdd.c: Updated for 2.6.20
+
+2007-01-26  Andrew Belov <andrew_belov@newmail.ru>
+
+	* userland.c: Got rid of the nasty swap macro
+
+2006-10-16  Andrew Belov <andrew_belov@newmail.ru>
+
+	* linux/Makefile: Create the misc directory if missing
+
+2006-09-09  Andrew Belov <andrew_belov@newmail.ru>
+
+	* hwmon.c, linux/linuxdd.c: Implemented FANCTRL_SET_DIVISOR
+
+2006-09-09  Andrew Belov <andrew_belov@newmail.ru>
+
+	* hwmon.c, ite.c, quietpc.h, quietpcp.h, userland.c, winbond.c,
+	  doc/readme.txt, os2/makefile: Divisors
+
+2006-03-11  Andrew Belov <andrew_belov@newmail.ru>
+
+	* doc/readme.txt: Introduced Linux
+
+2005-12-20  Andrew Belov <andrew_belov@mtu-net.ru>
+
+	* linux/Makefile: Installation fixes
+
+2005-12-18  Andrew Belov <andrew_belov@mtu-net.ru>
+
+	* linux/linuxdd.c: Remove __KERNEL__ + define RC_BUG to be 1
+
+2005-12-18  Andrew Belov <andrew_belov@mtu-net.ru>
+
+	* hwmon.c, userland.c, os2/makefile: Post-integration fixes for
+	  OS/2
+
+2005-12-18  Andrew Belov <andrew_belov@mtu-net.ru>
+
+	* doc/example3.cfg: A fresh example
+
+2005-12-18  Andrew Belov <andrew_belov@mtu-net.ru>
+
+	* hwmon.c, hwmon.h, ite.c, portio.h, quietpc.h, quietpcp.h,
+	  regio.c, userland.c, winbond.c, linux/Makefile, linux/linuxdd.c,
+	  os2/os2pdd.c: Integration with Linux code from 2002
+
+2005-06-27  Andrew Belov <andrew_belov@mtu-net.ru>
+
+	* doc/: example3.cfg, readme.txt: Doc corrections
+
+2004-12-16  Andrew Belov <andrew_belov@mtu-net.ru>
+
+	* ite.c, portio.h, quietpc.h, quietpcp.h, regio.c, regio.h,
+	  winbond.c, doc/example1.cfg, doc/example2.cfg, doc/example3.cfg,
+	  doc/readme.txt, os2/apmcalls.h, os2/helpers.asm, os2/makefile,
+	  os2/os2first.c, os2/os2pdd.c, os2/qctrl.def, os2/quietpc.def,
+	  os2/testcase.def: Fixing the previous commit glitch
+
+2004-12-06  Andrew Belov <andrew_belov@mtu-net.ru>
+
+	* userland.c: Divide by the maximum duty cycle value when
+	  calculating d.c. percentage
+
+2004-12-02  Andrew Belov <andrew_belov@mtu-net.ru>
+
+	* hwmon.c, hwmon.h, ite.c, portio.h, quietpc.h, quietpcp.h,
+	  regio.c, regio.h, userland.c, winbond.c, doc/example1.cfg,
+	  doc/example2.cfg, doc/example3.cfg, doc/readme.txt,
+	  os2/apmcalls.h, os2/apmcalls.lib, os2/helpers.asm, os2/makefile,
+	  os2/os2first.c, os2/os2pdd.c, os2/qctrl.def, os2/quietpc.def,
+	  os2/testcase.def: First version = Winbond code from VIAAPM +
+	  IT8712 support
+
